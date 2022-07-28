@@ -18,13 +18,13 @@
         app:layout_constraintVertical_bias="0.193">
 
         <CheckBox
-            android:id="@+id/checkBox2"
+            android:id="@+id/frag1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Fragment 1" />
 
         <CheckBox
-            android:id="@+id/checkBox3"
+            android:id="@+id/frag2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Fragment 2" />
@@ -42,7 +42,8 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        app:layout_constraintVertical_bias="0.071" />
+        app:layout_constraintVertical_bias="0.071"
+        />
 
     <Button
         android:id="@+id/optionsButton"
@@ -54,5 +55,6 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/showButton"
-        app:layout_constraintVertical_bias="0.141" />
+        app:layout_constraintVertical_bias="0.141"
+        style="@style/DifferentStyle"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
