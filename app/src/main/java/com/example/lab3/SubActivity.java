@@ -5,6 +5,7 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
 import android.content.Intent;
+import android.media.Image;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -63,13 +64,6 @@ public class SubActivity extends AppCompatActivity {
         fragmentTransaction.add(R.id.fragment_container,frag2);
         fragmentTransaction.commit();
 
-    }
-
-    public void makeVisible(View view)
-    {
-        ViewGroup parent = (ViewGroup) view.getParent();
-        ImageView image = (ImageView) parent.getChildAt(0);
-        image.setVisibility(View.VISIBLE);
     }
 
 }
